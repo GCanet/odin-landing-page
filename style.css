@@ -6,8 +6,8 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .tituloheader {
@@ -29,6 +29,7 @@
 .Headerlogo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 150px;
 }
 
 .topbar {
@@ -42,7 +43,7 @@
 .card {
     display: flex;
     margin: 100px;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -50,6 +51,7 @@ img {
     color: white;
     max-width: 50%;
     background-color: grey;
+    flex: 1;
 }
 
 .leftheader {
@@ -83,8 +85,8 @@ a {
     padding: 30px;
     color: white;
     font-size: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 body {
@@ -95,8 +97,8 @@ body {
     display: flex;
     background-color: white;
     flex-direction: column;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .titulocontainer {
@@ -174,4 +176,33 @@ body {
 
 .callcard {
     max-width: 300px;
+}
+
+.subtextdos {
+    font-size: 14px;
+    opacity: 60%;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: gray;
+    flex: 1;
+}
+
+.cuatrefotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nietouno {
+    flex: 1;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+button {
+    text-decoration: none;
+    font-weight: 700;
 }
